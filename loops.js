@@ -32,9 +32,9 @@ console.log("\r\n");
 console.log("For..of Loop");
 console.log("*****************************************************************************************");
 console.log("Create a JavaScript program that iterates through the following array:");
-console.log("names = {'Fred', 'tom', 'bob', 'charlie'}; and log in the names in the array one by one");
-let names = ["fred", "tom", "bob", "charlie"];
-for(let i of names){
+console.log("names = {'Fred', 'Tom', 'Bob', 'Charlie'}; and log in the names in the array one by one");
+let ArrayOfNames = ["Fred", "Tom", "Bob", "Charlie"];
+for(let i of ArrayOfNames){
     console.log(i);
 }
 console.log("*****************************************************************************************");
